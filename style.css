@@ -1,0 +1,63 @@
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], input[type=radio] {
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+div {
+    break-inside: avoid;
+    line-height: 1.5;
+}
+ 
+.rent-slips {
+    margin: 30px;
+    padding: 20px;
+}
+
+textarea, body {
+    font: 14px Arial, sans-serif;
+}
+
+h1 {
+    color: black;
+}
